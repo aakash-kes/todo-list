@@ -1,0 +1,106 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.Body {
+    /* background: rgb(115, 110, 184); */
+    background: linear-gradient(160deg, #153677, #4e085f);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Container {
+    padding-top: 20px;
+    border: 2px solid black;
+    width: 25%;
+    height: 60vh;
+    /* background-color: rgb(151, 182, 191); */
+    background: linear-gradient(300deg, #dc1f1f82, #236023);
+    box-shadow: 5px 5px 25px -5px gray;
+    border-radius: 10%;
+}
+
+.Heading {
+    background-color: #f2fd63;
+    color: red;
+    opacity: 0.2;
+    border-radius: 10px;
+}
+
+.InputCss {
+    text-align: center;
+    border-radius: 20px;
+    width: auto;
+    height: 50px;
+    /* border: none; */
+    /* font-size: 15px;
+    font-weight: 500; */
+    border-bottom: 2px solid black;
+    /* outline: black; */
+    background: linear-gradient(60deg, rgb(217, 217, 211), orange);
+
+}
+
+.ButtonCss {
+    width: 60px;
+    height: 50px;
+    border-radius: 25%;
+    margin-left: 10px;
+    /* background-color: green; */
+}
+
+@media screen and (max-width:768px) {
+
+    .ButtonCss {
+        display: flex;
+        background-color: green;
+        width: 30%;
+        height: 30px;
+        input-security: none;
+        text-align: center;
+    }
+
+    .Heading {
+        display: flex;
+        color: yellow;
+        justify-content: space-evenly;
+        font-size: small;
+        font-style: italic;
+        font-weight: normal;
+    }
+
+    .InputCss {
+        display: flex;
+        background-color: rgb(70, 65, 65);
+        width: 75%;
+        height: 30px;
+
+    }
+}
+
+.ButtonCss:hover {
+    /* background: linear-gradient(30deg, black, green, yellow); */
+    /* background-image: url(/src/avi.jpg); */
+    background-image: url(/src/favicon.ico);
+    width: 50px;
+    height: 50px;
+}
+
+.TodoListCss {
+    list-style-type: none;
+    font-size: x-large;
+    display: flex;
+    justify-content: left;
+    font-style: italic;
+    font-family: monospace;
+    font-weight: bolder;
+    color: gray;
+    padding-left: 15px;
+
+}
